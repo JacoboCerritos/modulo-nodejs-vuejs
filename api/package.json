@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node index.ts",
-    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "start:dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "tslint": "tslint --project tsconfig.json --config tslint.json",
     "tslint-fix": "tslint --project tsconfig.json --config tslint.json --fix",
