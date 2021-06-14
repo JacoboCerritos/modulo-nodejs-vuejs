@@ -1,0 +1,10 @@
+// clone the project
+git clone https://github.com/bbachi/vuejs-nodejs-typescript-example.git
+//Vue Code
+cd my-app
+npm install
+npm run serve
+// API code
+cd api
+npm install
+npm run start:dev
